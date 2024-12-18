@@ -18,7 +18,7 @@ header {
     padding: 1rem 0;
 }
 
-header .container {
+header .container {/* shewazi name ka agore */
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -44,6 +44,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+    /* dastkary homeka aka*/
 }
 
 /* Car Listings Section */
@@ -56,8 +57,7 @@ nav ul li a {
     margin: 0 auto;
     padding: 0 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+   
 }
 
 .car {
@@ -103,6 +103,7 @@ nav ul li a {
     padding: 2rem;
     margin: 2rem 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* hy copy rightakaia */
 }
 
 .contact .container {
@@ -113,6 +114,7 @@ nav ul li a {
 .contact form {
     display: flex;
     flex-direction: column;
+    /* He naw email kaia  */
 }
 
 .contact form label {
